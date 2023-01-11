@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100%;
+  min-height: 100vh;
+  background: #151329;
+}
+.container {
+  max-width: 1860px;
+  padding: 0 30px;
+  margin: 0 auto;
+
+  @media (max-width: 600px) {
+    padding: 0 10px;
+  }
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+p {
+  margin: 0;
+}
+
+.error-enter, .error-leave-to {
+  transform: translateY(-10px);
+  opacity: 0;
+}
+.slide-fade-enter,
+.slide-fade-leave-to {
+  transform: translateY(-10px);
+  opacity: 0;
+}

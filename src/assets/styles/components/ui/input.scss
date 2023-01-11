@@ -1,0 +1,39 @@
+.input {
+  outline: none;
+  border: 1px solid white;
+  background: transparent;
+  min-width: 100%;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: white;
+  box-sizing: border-box;
+  transition: 0.3s;
+  padding: 10px;
+
+  &::placeholder {
+    color: white;
+  }
+
+  &__parent {
+    width: 100%;
+  }
+
+  &__error {
+    border-color: #EA0C2A !important;
+
+    &-text {
+      font-weight: 430;
+      font-size: 13px;
+      line-height: 142%;
+      color: #EA0C2A;
+      transition: 0.3s;
+    }
+  }
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

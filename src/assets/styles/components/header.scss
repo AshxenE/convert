@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  height: 80px;
+
+  &__link {
+    font-size: 24px;
+    color: white;
+    padding-bottom: 3px;
+  }
+
+  .router-link-active {
+    color: rgba(232, 232, 232, 0.58);
+    border-bottom: 1px solid rgba(232, 232, 232, 0.58);
+  }
+}
